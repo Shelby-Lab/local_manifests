@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="pixel"
+            fetch="https://github.com/PixelExperience"
+            revision="twelve"
+            review="gerrit.pixelexperience.org" />
+
+    <remote name="pixel-devices"
+          fetch="https://github.com/PixelExperience-Devices"
+          revision="twelve" />
+
+  <!-- SM8250-COMMON -->
+  <project path="hardware/qcom-caf/sm8250-common/audio" name="hardware_qcom-caf_sm8250-common_audio" remote="pixel" revision="twelve" />
+  <project path="hardware/qcom-caf/sm8250-common/display" name="hardware_qcom-caf_sm8250-common_display" remote="pixel" revision="twelve" />
+  <project path="hardware/qcom-caf/sm8250-common/gps" name="hardware_qcom-caf_sm8250-common_gps" remote="pixel" revision="twelve" />
+  <project path="hardware/qcom-caf/sm8250-common/media" name="hardware_qcom-caf_sm8250-common_media" remote="pixel" revision="twelve" />
+ 
+</manifest>
