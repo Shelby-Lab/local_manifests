@@ -24,8 +24,7 @@
     <!-- DT/VT/KT -->
     <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="shelby" revision="CAF" />
     <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_juice" remote="shelby" revision="JuiceIcedSnow" />
-    <!-- [TMP] NOT DOWNLOADING -->
-    <!--<project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="shelby" revision="CAF" />/-->
+    <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="shelby" revision="CAF" />
 
     <!-- TOOLCHAIN -->
     <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
