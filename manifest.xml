@@ -21,18 +21,6 @@
           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
           revision="twelve" />
 
-    <!-- DT/VT/KT -->
-    <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="shelby" revision="CAF" />
-    <project path="kernel/xiaomi/juice" name="android_kernel_xiaomi_juice" remote="shelby" revision="JuiceIcedSnow" />
-    <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="shelby" revision="CAF" />
-
-    <!-- TOOLCHAIN -->
-    <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
-
-    <!-- QCOM -->
-    <project path="device/qcom/common" name="device_qcom_common" remote="pixel-devices" revision="twelve" />
-    <project path="vendor/qcom/common" name="vendor_qcom_common" remote="pixel-devices-blobs" revision="twelve" />
-
     <!-- SM8250-COMMON -->
     <project path="hardware/qcom-caf/sm8250-common/audio" name="hardware_qcom-caf_sm8250-common_audio" remote="pixel" revision="twelve" />
     <project path="hardware/qcom-caf/sm8250-common/display" name="hardware_qcom-caf_sm8250-common_display" remote="pixel" revision="twelve" />
